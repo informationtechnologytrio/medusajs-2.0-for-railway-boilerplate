@@ -1,7 +1,7 @@
 import React from "react"
 import { CreditCard, Cash } from "@medusajs/icons"
 import { CIcon } from '@coreui/icons-react';
-import { cilList, cilShieldAlt } from '@coreui/icons';
+import { cibAlipay, cilShieldAlt } from '@coreui/icons';
 
 import Ideal from "@modules/common/icons/ideal"
 import Bancontact from "@modules/common/icons/bancontact"
