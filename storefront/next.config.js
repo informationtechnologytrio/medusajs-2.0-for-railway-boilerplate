@@ -29,6 +29,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "cloud-fhwtc10s1-hack-club-bot.vercel.app",
+      },
     ],
   },
   serverRuntimeConfig: {
