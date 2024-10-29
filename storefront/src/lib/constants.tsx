@@ -1,5 +1,6 @@
 import React from "react"
-import { CreditCard } from "@medusajs/icons"
+import { CreditCard, Cash } from "@medusajs/icons"
+import { CIcon } from '@coreui/icons-react';
 
 import Ideal from "@modules/common/icons/ideal"
 import Bancontact from "@modules/common/icons/bancontact"
@@ -27,8 +28,20 @@ export const paymentInfoMap: Record<
     icon: <PayPal />,
   },
   pp_system_default: {
-    title: "Manual Payment",
-    icon: <CreditCard />,
+    title: "Alipay",
+    icon: <CIcon icon={cibAlipay} />,
+  },
+  pp_alipay_qr: {
+    title: "Alipay",
+    icon: <CIcon icon={cibAlipay} />,
+  },
+  pp_payme_qr: {
+    title: "PayMe",
+    icon: <Cash />,
+  },
+  pp_fps_qr: {
+    title: "FPS",
+    icon: <Cash />,
   },
   // Add more payment providers here
 }

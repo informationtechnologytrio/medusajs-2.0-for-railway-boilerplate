@@ -51,6 +51,20 @@ if (process.env.REDIS_URL) {
   };
 }
 
+//modules[Modules.PAYMENT] = {
+//  resolve: '@medusajs/payment',
+//  options: {
+//    providers: [
+//      {
+//        resolve: './src/modules/providers/alipay',
+//        id: 'alipay',
+//        options: {
+//        }
+//      }
+//    ]
+//  }
+//};
+
 // Stripe payment provider
 const stripeApiKey = process.env.STRIPE_API_KEY;
 const stripeWebhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
